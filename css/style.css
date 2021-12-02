@@ -11,6 +11,10 @@
       
  }
 
+ #me{
+     font-size: 300px;
+ }
+
  .wave {
      position: fixed;
      height: 100%;
@@ -112,11 +116,37 @@
        top: -6px;
        font-size: 16px;
     }
-
+     
 #momo {
     left: 70px;
     top: -7px;
     font-size: 16px;
+}
+
+#amt {
+    
+    top: -7px;
+    font-size: 16px;
+}
+
+#amt-input {
+    margin-top: -10px;
+}
+
+#note{
+    position: absolute;
+    top: 100px;
+    left: 300px;
+    font-size: 20px !important;
+
+}  
+
+#failed {
+    position: absolute;
+    top: 35px;
+    left: 550px;
+    font-size: 35px;
+
 }
 
 .input {
@@ -156,8 +186,57 @@
  #btn:hover{
      background-position: right;
      background-image: linear-gradient(to right, #240f0f ,#240f0f);
- }
+ }  
+/* Sucess */
+  h1.sucess-note{
+      color: rgb(27, 15, 15);
+      font-size: 15px;
+      position: relative;
+      left: 50px;
+  }
+.sucess-container{
+    position: relative;
+    margin-top: 50px;
+}
 
+#donation-sucess{
+    position: absolute;
+    top: 180px;
+    left: 220px;
+}
+
+
+  /* Update  */
+.update-container{
+    position: relative;
+}
+  #update{
+    margin-top: 100px;
+    position: absolute;
+    top: 150px;
+    left: 250px;
+  }
+  #gif {
+      position: relative;
+      left: 100px;
+  }
+  #gif-update{
+    width: 90px;
+     position: relative;
+      top:0px; left: 120px; 
+  }
+  #update-txt {
+      font-size: 40px;
+    
+  }
+  .btn-danger{
+      background-color: #ff0000;
+      margin-top: 20px;
+      position: relative;
+      left: 400px;
+      font-size: 20px;
+    }
+  
  #member {
      width: 100%;
      top: -11px;
@@ -165,9 +244,7 @@
      left: 149px;
      font-size: 16px;
  }
-  .score-color {
-      font-size: 50px;
-  }
+  
  /* large devices */
  @media (min-width: 1200px){
     
